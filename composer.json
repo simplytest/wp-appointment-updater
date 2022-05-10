@@ -1,0 +1,27 @@
+{
+    "name": "simplytest/appointment-updater",
+    "description": "Wordpress plugin",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+            "SimplyTest\\AppointmentUpdater\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Laurentiu Andries",
+            "email": "l.andries@simplytest.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "vendor-dir": "lib",
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    },
+    "require": {
+        "php": ">=7.3",
+        "composer/installers": "~1.0"
+    }
+}
